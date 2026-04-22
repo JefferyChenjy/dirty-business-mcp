@@ -1,4 +1,3 @@
-```md
 # dirty-business-mcp
 
 Clean and deduplicate messy business data using a rule-based entity resolution system with a reproducible evaluation flywheel.
@@ -51,10 +50,8 @@ This project implements a **rule-based entity resolution system** that:
 ## 🔁 Evaluation flywheel
 
 ```
-
 raw data → normalize → dedupe → cluster → evaluate → error cases → improve → repeat
-
-````
+```
 
 ---
 
@@ -63,7 +60,7 @@ raw data → normalize → dedupe → cluster → evaluate → error cases → i
 ```bash
 npm install
 npm run flywheel
-````
+```
 
 Outputs:
 
@@ -274,6 +271,4 @@ CLI:
 npm run cli -- normalize examples/sample.csv
 npm run cli -- dedupe examples/sample.csv
 npm run cli -- clean examples/sample.csv --out /tmp/cleaned.json
-```
-
 ```
