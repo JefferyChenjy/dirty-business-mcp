@@ -1,71 +1,57 @@
 # dirty-business-mcp
 
-`dirty-business-mcp` is a TypeScript project for cleaning and deduplicating messy business/company data.
+Clean and deduplicate messy business data using a rule-based entity resolution system with a reproducible evaluation flywheel.
 
-It includes:
-- MCP server tools
-- CLI (`dirtybiz`)
-- repeatable evaluation flywheel (pipeline + evaluate + EDA + report + snapshot)
+---
 
-## Stack
-- Node.js >= 18
-- TypeScript
-- papaparse
-- fast-fuzzy
-- lodash
-- libphonenumber-js
-- tldts
-- zod
+## 🚧 The problem
 
-Python is **not required** for the current Node/TypeScript flywheel.
+Business data is messy:
 
-## Directory Structure
+- duplicate companies across sources  
+- inconsistent naming (Intl vs International)  
+- token reordering (Engineering Crestview vs Crestview Engineering)  
+- region/branch variants (SG, Asia, Branch)  
+- near-collision names (Falcon Marine vs Falcon Marine Systems)  
 
-```text
-dirty-business-mcp/
-  .github/
-    workflows/
-      eval-flywheel.yml
+Naive string matching fails.
 
-  data/
-    raw/
-      dirty_business_data_200.csv
-      dirty_business_gold_200.csv
+---
 
-  outputs/
-    latest/
-      cleaned_records.csv
-      quality_scores.csv
-      clusters.json
-      metrics.json
-      error_cases.json
-      eda_summary.json
-      summary.md
-    history/
-      .gitkeep
+## ⚙️ What this project does
 
-  reports/
-    templates/
-      summary_template.md
+This project implements a **rule-based entity resolution system** that:
 
-  scripts/
-    _common.ts
-    run_pipeline.ts
-    evaluate.ts
-    eda.ts
-    generate_report.ts
-    save_run_snapshot.ts
+- normalizes company names (suffix, abbreviation, token expansion)
+- deduplicates records using token-aware matching
+- clusters entities
+- evaluates results against a **hard-case benchmark**
+- iterates via a **reproducible evaluation flywheel**
 
-  src/
-    ... MCP + tools ...
-```
+---
 
-## Quickstart
+## 🧪 Example
+
+Input:
+
+- "CrestviewEngineering"
+- "Engineering Crestview"
+- "Crestview Engineering SG"
+
+Output:
+
+- "CrestviewEngineering" ↔ "Engineering Crestview" → **match**
+- "Crestview Engineering SG" → **separate entity** (region qualifier)
+
+→ clustered entities with confidence scoring
+
+## ⚡ Quickstart
 
 ```bash
 npm install
 npm run flywheel
 ```
+
 
 ## Flywheel Commands
 
