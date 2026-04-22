@@ -1,0 +1,50 @@
+{
+  "name": "dirty-business-mcp",
+  "version": "0.1.0",
+  "description": "MCP server and CLI for cleaning and deduplicating messy business/company data",
+  "type": "module",
+  "main": "dist/src/server.js",
+  "bin": {
+    "dirtybiz": "dist/cli/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/server.js",
+    "cli": "node dist/cli/index.js",
+    "pipeline": "npm run build && node dist/scripts/run_pipeline.js",
+    "evaluate": "npm run build && node dist/scripts/evaluate.js",
+    "eda": "npm run build && node dist/scripts/eda.js",
+    "report": "npm run build && node dist/scripts/generate_report.js",
+    "regression:pairs": "npm run build && node dist/scripts/check_regression_pairs.js",
+    "snapshot": "npm run build && node dist/scripts/save_run_snapshot.js",
+    "flywheel": "npm run build && node dist/scripts/run_pipeline.js && node dist/scripts/evaluate.js && node dist/scripts/eda.js && node dist/scripts/generate_report.js",
+    "ci:flywheel": "npm run build && node dist/scripts/run_pipeline.js && node dist/scripts/evaluate.js && node dist/scripts/eda.js && node dist/scripts/generate_report.js"
+  },
+  "keywords": [
+    "mcp",
+    "data-cleaning",
+    "deduplication",
+    "typescript"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "csv-parse": "^5.5.6",
+    "csv-stringify": "^6.5.2",
+    "fast-fuzzy": "^1.12.0",
+    "libphonenumber-js": "^1.11.7",
+    "lodash": "^4.17.21",
+    "papaparse": "^5.5.3",
+    "tldts": "^7.0.10",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.17",
+    "@types/node": "^22.9.0",
+    "@types/papaparse": "^5.3.16",
+    "typescript": "^5.6.3"
+  }
+}

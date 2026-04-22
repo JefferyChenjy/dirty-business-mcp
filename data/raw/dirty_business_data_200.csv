@@ -1,0 +1,297 @@
+record_id,entity_id_truth,name,phone,email,website,address,source_note
+1,1,Alpha Trading Corp,+65 8171 9583,CONTACT@ALPHA.COM,ALPHA.COM,"174 Kallang Place, #06-76, Jakarta, 198246",imported from CRM
+2,1,Alpha  Trading,,contact@alpha.com,http://alpha.com,,sales rep note
+3,1,Alpha Trading Corp,+65 8171 9583,,,,old sheet copy
+4,1,Alpha Trading Corp,(+65) 8171 9583,CONTACT@ALPHA.COM,https://www.alpha.com/,,linkedin scrape
+5,2,Beta Logistics,,contact@beta.com,beta.com,,manual entry
+6,2,Beta  Logistics,,,www.beta.com,"156 Pasir Panjang Road, Unit 16-21, Johor Bahru, 497887",trade show list
+7,2,Beta Logistics Corporation,+65 9119 7935,CONTACT@BETA.COM,www.beta.com,"156 PASIR PANJANG ROAD, UNIT 16-21, JOHOR BAHRU, 497887",scraped from directory
+8,2,beta logistics corp.,+65 9119 7935,,www.beta.com,,scraped from directory
+9,3,CrestviewEngineering,9187 1534,ADMIN@CRESTVIEW.COM,,"76 Ubi Avenue 1, Johor Bahru, 632342",sales rep note
+10,3,CRESTVIEW ENGINEERING CORPORATION,+65 9187 1534,admin@crestview.com,https://www.crestview.com/,"76 Ubi Avenue 1, Johor Bahru, 632342",linkedin scrape
+11,3,crestview engineering corporation,+65 9187 1534," admin@crestview.com ",www.crestview.com,"76 Ubi Avenue 1, Johor Bahru, 632342",old sheet copy
+12,3,Crestview Engineering Corporation,,,CRESTVIEW.COM,"76 Ubi Avenue 1, Johor Bahru, 632342",old sheet copy
+13,4,Delta. Supplies. Private Limited,,ADMIN@DELTA.COM,http://delta.com,"19 Kallang Place, Penang, 174299",manual entry
+14,4,Delta  Supplies,,admin@delta.com,www.delta.com,,manual entry
+15,4,Delta Supplies,,ADMIN@DELTA.COM,http://delta.com,19 Kallang Place Penang 174299,linkedin scrape
+16,4,Delta Supplies Private Limited,,,http://delta.com,"19 kallang place, penang, 174299",scraped from directory
+17,5,Everbright Tech L.L.C.,+65 9478 5687,hello@gmail.com,everbright.com,"109 Kallang Place, Penang, 411120",scraped from directory
+18,5,everbright tech l.l.c.,+65 9478 5687,,everbright.com,109 Kallang Place Penang 411120,manual entry
+19,5,Everbright  Tech,,HELLO@EVERBRIGHT.COM,http://everbright.com,,linkedin scrape
+20,5,Everbright Tech L.L.C.,0065 9478 5687,hello@everbright.com,,,imported from CRM
+21,6,FALCON MARINE LTD,0065 9911 3685," contact@falcon.com ",http://falcon.com,,old sheet copy
+22,6,FalconMarine,,contact@falcon.com,https://www.falcon.com/,"181 Orchard Rd, #34-02, Jakarta, 240814",scraped from directory
+23,6,FalconMarine,+65 9911 3685,contact@hotmail.com,www.falcon.com,"181 Orchard Road, #34-02, Jakarta, 240814",scraped from directory
+24,6,falcon marine ltd,(+65) 9911 3685," contact@falcon.com ",falcon.com,"181 Orchard Road, #34-02, Jakarta, 240814",old sheet copy
+25,7,Golden Harvest Foods,(+62) 7664 30218,,GOLDENHARVEST.SG,"192 Jurong East St 21, Johor Bahru, 448321",old sheet copy
+26,7,GoldenHarvestFoods,+62766430218,admin@goldenharvest.sg,http://goldenharvest.sg,,trade show list
+27,7,Golden  Harvest  Foods,,admin@goldenharvest.sg,www.goldenharvest.sg,,scraped from directory
+28,7,Golden Harvest Foods Corp,0062 76-643-0218,admin@hotmail.com,https://www.goldenharvest.sg/,"192 Jurong East St 21, Johor Bahru, 448321",trade show list
+29,8,Harbourlink  Services,+60 49-107-9829,ADMIN@HARBOURLINK.COM,https://www.harbourlink.com/,"111 Robinson Road, #22-80, Penang, 414910",trade show list
+30,8,HarbourlinkServices,,,www.harbourlink.com,"111 Robinson Road, #22-80, Penang, 414910",linkedin scrape
+31,8,HarbourlinkServices,(+60) 4910 79829,admin@harbourlink.com,HARBOURLINK.COM,,old sheet copy
+32,8,Harbourlink Svc Pte. Ltd.,+60 49-107-9829,,www.harbourlink.com,"111 Robinson Road, #22-80, Penang, 414910",website footer
+33,9,Ionix. Solutions. Sdn Bhd,+65 8178 8238,,www.ionix.com,"200 ubi avenue 1, #12-90, johor bahru, 684482",linkedin scrape
+34,9,Ionix. Solutions. Sendirian Berhad,+65 8178 8238,sales@outlook.com,http://ionix.com,,linkedin scrape
+35,9,IonixSolutions,+65 8178 8238,sales@outlook.com,https://www.ionix.com/,"200 Ubi Avenue 1, #12-90, Johor Bahru, 684482",website footer
+36,9,Ionix Solutions,,sales@outlook.com,www.ionix.com,"200 Ubi Avenue 1, #12-90, Johor Bahru, 684482",website footer
+37,10,Jade Peak Consulting Sdn Bhd,+62612153089,,www.jadepeak.com.sg,"2 Tai Seng Drive, Kuala Lumpur, 611945",scraped from directory
+38,10,Jade Peak Consulting Sendirian Berhad,+6261-215-3089,,www.jadepeak.com.sg,"2 tai seng drive, kuala lumpur, 611945",sales rep note
+39,10,Jade  Peak  Consulting,+62 61-215-3089,,www.jadepeak.com.sg,"2 TAI SENG DRIVE, KUALA LUMPUR, 611945",scraped from directory
+40,10,JADE PEAK CONSULTING SENDIRIAN BERHAD,+6261-215-3089,info@jadepeak.com.sg,JADEPEAK.COM.SG,"2 Tai Seng Drive, Kuala Lumpur, 611945",old sheet copy
+41,11,Kingfisher Retail L.L.C.,+6587801975,,,"180 Orchard Road, #11-78, Kuala Lumpur, 271720",manual entry
+42,11,KINGFISHER RETAIL L.L.C.,," info@kingfisher.com.sg ",,,manual entry
+43,11,Kingfisher  Retail,,info@kingfisher.com.sg,www.kingfisher.com.sg,"180 orchard road, #11-78, kuala lumpur, 271720",imported from CRM
+44,11,KingfisherRetail,+65 8780 1975,,,,sales rep note
+45,12,LighthouseMedical,+65 9956 0490,hello@outlook.com,,157 Pasir Panjang Road Batam 611233,old sheet copy
+46,12,Lighthouse. Medical. L.L.C.,+65-9956-0490,,http://lighthouse.sg,,old sheet copy
+47,12,Lighthouse Medical,+65 9956 0490,,,"157 pasir panjang road, batam, 611233",sales rep note
+48,12,Lighthouse. Medical. Limited Liability Company,+6599560490,hello@lighthouse.sg,https://www.lighthouse.sg/,"157 Pasir Panjang Rd, Batam, 611233",imported from CRM
+49,13,Meridian Packaging LLC,,HELLO@MERIDIAN.COM.SG,,"214 Tanjong Pagar Road, #15-47, Kuala Lumpur, 660081",trade show list
+50,13,Meridian. Packaging. L.L.C.,+65 9168 6548,,meridian.com.sg,"214 tanjong pagar road, #15-47, kuala lumpur, 660081",manual entry
+51,13,Meridian Packaging LLC,+6591686548,hello@meridian.com.sg,,"214 tanjong pagar road, #15-47, kuala lumpur, 660081",old sheet copy
+52,13,Meridian. Packaging. L.L.C.,+65 9168 6548," hello@meridian.com.sg ",https://www.meridian.com.sg/,"214 Tanjong Pagar Road, #15-47, Kuala Lumpur, 660081",old sheet copy
+53,14,NorthstarSecurity,+65 8926 0893,INFO@NORTHSTAR.SG,www.northstar.sg,"20 Jurong East St 21, Singapore, 134225",website footer
+54,14,Northstar Security,+65 8926 0893,info@northstar.sg,https://www.northstar.sg/,,linkedin scrape
+55,14,NorthstarSecurity,+65 8926 0893,,https://www.northstar.sg/,"20 jurong east st 21, singapore, 134225",sales rep note
+56,14,Northstar Security Corp,0065 8926 0893," info@northstar.sg ",NORTHSTAR.SG,"20 jurong east st 21, singapore, 134225",linkedin scrape
+57,15,OrchidWellness,,,www.orchid.com.sg,,manual entry
+58,15,Orchid Wellness Ltd,+65 9153 0793,,,,linkedin scrape
+59,15,Orchid Wellness Ltd,+65 9153 0793," hello@orchid.com.sg ",,"121 TAI SENG DRIVE, BATAM, 531641",scraped from directory
+60,15,Orchid Wellness,+65-9153-0793,hello@gmail.com,https://www.orchid.com.sg/,121 Tai Seng Drive Batam 531641,linkedin scrape
+61,16,PacificAlloy,9697 0771,contact@outlook.com,www.pacificalloy.sg,,linkedin scrape
+62,16,Pacific. Alloy. Pte. Ltd.,9697 0771,,,"214 Cecil Street, Unit 36-19, Batam, 299869",website footer
+63,16,Pacific Alloy PTE. LTD.,+65 9697 0771,,www.pacificalloy.sg,"214 cecil street, unit 36-19, batam, 299869",scraped from directory
+64,16,PACIFIC ALLOY PTE. LTD.,+65-9697-0771,contact@gmail.com,www.pacificalloy.sg,"214 Cecil Street, Unit 36-19, Batam, 299869",website footer
+65,17,Quantum Fleet Corp,+6595680114,HELLO@QUANTUMFLEET.COM,http://quantumfleet.com,"160 KALLANG PLACE, BATAM, 757246",manual entry
+66,17,QuantumFleet,,hello@quantumfleet.com,quantumfleet.com,"160 kallang place, batam, 757246",imported from CRM
+67,17,Quantum Fleet Corp,+65 9568 0114,HELLO@QUANTUMFLEET.COM,http://quantumfleet.com,"160 Kallang Place, Batam, 757246",linkedin scrape
+68,17,Quantum Fleet,+6595680114," hello@quantumfleet.com ",https://www.quantumfleet.com/,,imported from CRM
+69,18,RedwoodAnalytics,+65 9419 5951," admin@redwood.sg ",REDWOOD.SG,"117 Orchard Road, Unit 07-31, Johor Bahru",linkedin scrape
+70,18,Redwood  Analytics,+6594195951,ADMIN@REDWOOD.SG,http://redwood.sg,"117 Orchard Road, Unit 07-31, Johor Bahru",trade show list
+71,18,Redwood  Analytics,," admin@redwood.sg ",redwood.sg,"117 Orchard Road, Unit 07-31, Johor Bahru, 699704",imported from CRM
+72,18,redwood analytics pte. ltd.,(+65) 9419 5951," admin@redwood.sg ",www.redwood.sg,"117 ORCHARD ROAD, UNIT 07-31, JOHOR BAHRU, 699704",imported from CRM
+73,19,Silverline  Motors,+62 19-696-1971,hello@silverline.com.sg,http://silverline.com.sg,"203 Ubi Avenue 1, Singapore, 374896",manual entry
+74,19,SilverlineMotors,,hello@silverline.com.sg,silverline.com.sg,"203 UBI AVENUE 1, SINGAPORE, 374896",manual entry
+75,19,silverline motors limited liability company,+62 19-696-1971,hello@hotmail.com,https://www.silverline.com.sg/,"203 ubi avenue 1, singapore, 374896",manual entry
+76,19,Silverline Motors L.L.C.,," hello@silverline.com.sg ",https://www.silverline.com.sg/,"203 Ubi Avenue 1, Singapore, 374896",sales rep note
+77,20,titan build private limited,+65 9318 4459,contact@gmail.com,http://titanbuild.com.sg,"248 Robinson Road, #06-85, Batam, 153035",sales rep note
+78,20,TitanBuild,9318 4459,contact@yahoo.com,http://titanbuild.com.sg,"248 Robinson Road, #06-85, Batam, 153035",imported from CRM
+79,20,Titan Build,+65 9318 4459," contact@titanbuild.com.sg ",titanbuild.com.sg,"248 robinson road, #06-85, batam, 153035",manual entry
+80,20,Titan. Build. Pte. Ltd.,0065 9318 4459,,,"248 Robinson Road, Unit 06-85, Batam, 153035",trade show list
+81,21,Urban  Hive,+62 55-770-7813,,,"176 ROBINSON ROAD, BATAM, 168872",manual entry
+82,21,Urban Hive,," info@urbanhive.com ",http://urbanhive.com,"176 robinson road, batam, 168872",manual entry
+83,21,Urban  Hive,+62 55-770-7813,,https://www.urbanhive.com/,"176 Robinson Road, Batam, 168872",website footer
+84,21,Urban  Hive,+62 55-770-7813,info@gmail.com,,"176 Robinson Rd, Batam, 168872",website footer
+85,22,VERTEX SYSTEMS LIMITED,+62 47-757-7220,,,"27 Ang Mo Kio Ave 5, Unit 14-20, Jakarta, 467121",trade show list
+86,22,VertexSystems,+62 47-757-7220," info@vertex.sg ",https://www.vertex.sg/,"27 ang mo kio ave 5, #14-20, jakarta, 467121",manual entry
+87,22,Vertex Systems Limited,,,,"27 Ang Mo Kio Ave 5, #14-20, Jakarta, 467121",sales rep note
+88,22,Vertex  Systems,+6247-757-7220,info@vertex.sg,,"27 Ang Mo Kio Ave 5, Unit 14-20, Jakarta, 467121",manual entry
+89,23,WestgateEnergy,,hello@westgate.com.sg,www.westgate.com.sg,"70 Tanjong Pagar Road, Jakarta, 721946",trade show list
+90,23,WESTGATE ENERGY LTD.,,HELLO@WESTGATE.COM.SG,WESTGATE.COM.SG,"70 Tanjong Pagar Road, Jakarta, 721946",sales rep note
+91,23,Westgate Energy LTD.,," hello@westgate.com.sg ",www.westgate.com.sg,"70 tanjong pagar road, jakarta, 721946",website footer
+92,23,Westgate Energy LTD.,+65 9694 8850,hello@yahoo.com,https://www.westgate.com.sg/,"70 Tanjong Pagar Rd, Jakarta, 721946",website footer
+93,24,Xeno  Fabrication,+65 8663 9863,ADMIN@XENOFAB.SG,XENOFAB.SG,"223 Orchard Road, #22-29, Penang, 635280",imported from CRM
+94,24,xeno fabrication pte. ltd.,+65 8663 9863,,XENOFAB.SG,"223 orchard road, #22-29, penang, 635280",sales rep note
+95,24,Xeno. Fabrication. PTE. LTD.,0065 8663 9863," admin@xenofab.sg ",www.xenofab.sg,"223 Orchard Rd, #22-29, Penang, 635280",trade show list
+96,24,Xeno Fabrication PTE. LTD.,+65 8663 9863,admin@xenofab.sg,https://www.xenofab.sg/,"223 orchard road, #22-29, penang, 635280",linkedin scrape
+97,25,yellow palm ventures incorporated,+65 8539 4323,,YELLOWPALM.COM.SG,"155 Cecil Street, Jakarta, 188425",sales rep note
+98,25,Yellow Palm Ventures INC.,," info@yellowpalm.com.sg ",https://www.yellowpalm.com.sg/,"155 cecil street, jakarta, 188425",trade show list
+99,25,yellow palm ventures incorporated,+65 8539 4323," info@yellowpalm.com.sg ",,"155 cecil street, jakarta, 188425",imported from CRM
+100,25,YELLOW PALM VENTURES INCORPORATED,+65 8539 4323,INFO@YELLOWPALM.COM.SG,www.yellowpalm.com.sg,"155 Cecil Street, Jakarta",website footer
+101,26,Zenith Care INC.,+65-8573-3317,contact@yahoo.com,,"243 Cecil Street, Johor Bahru, 206053",imported from CRM
+102,26,Zenith Care INC.,,,ZENITHCARE.COM,"243 cecil street, johor bahru, 206053",old sheet copy
+103,26,ZenithCare,+65 8573 3317," contact@zenithcare.com ",www.zenithcare.com,"243 cecil street, johor bahru, 206053",trade show list
+104,26,Zenith Care INC.,+65 8573 3317," contact@zenithcare.com ",http://zenithcare.com,,manual entry
+105,27,Apex Global CORP.,8457 6678,contact@apexglobal.com,http://apexglobal.com,,manual entry
+106,27,Apex  Global,," contact@apexglobal.com ",http://apexglobal.com,"116 Bukit Batok Crescent, Johor Bahru, 127965",linkedin scrape
+107,27,Apex Global Corporation,(+65) 8457 6678,CONTACT@APEXGLOBAL.COM,apexglobal.com,"116 bukit batok crescent, johor bahru, 127965",manual entry
+108,27,ApexGlobal,+65-8457-6678,contact@hotmail.com,http://apexglobal.com,"116 bukit batok crescent, johor bahru, 127965",scraped from directory
+109,28,Bluefin Digital Corporation,,,www.bluefin.com.sg,"1 Ang Mo Kio Ave 5, #16-74, Kuala Lumpur",sales rep note
+110,28,Bluefin Digital,,sales@gmail.com,BLUEFIN.COM.SG,1 Ang Mo Kio Ave 5 #16-74 Kuala Lumpur 648913,sales rep note
+111,28,bluefin digital corporation,+6597201433,,BLUEFIN.COM.SG,1 Ang Mo Kio Ave 5 #16-74 Kuala Lumpur 648913,linkedin scrape
+112,28,Bluefin Digital,+65 9720 1433," sales@bluefin.com.sg ",http://bluefin.com.sg,"1 ang mo kio ave 5, #16-74, kuala lumpur, 648913",trade show list
+113,29,Cobalt. Precision. PTE. LTD.,,contact@cobalt.sg,https://www.cobalt.sg/,"85 orchard road, unit 26-96, singapore, 505426",imported from CRM
+114,29,COBALT PRECISION PTE. LTD.,+60 80-408-6195," contact@cobalt.sg ",COBALT.SG,"85 orchard road, unit 26-96, singapore, 505426",imported from CRM
+115,29,Cobalt. Precision. Private Limited,+60804086195," contact@cobalt.sg ",https://www.cobalt.sg/,"85 orchard road, unit 26-96, singapore, 505426",sales rep note
+116,29,cobalt precision pte. ltd.,+6080-408-6195,contact@cobalt.sg,COBALT.SG,,sales rep note
+117,30,Dragonfly Media,,,dragonfly.com,"96 Cecil Street, Unit 34-47, Singapore, 429657",trade show list
+118,30,Dragonfly. Media. Sendirian Berhad,+6596223751,,,96 Cecil Street Unit 34-47 Singapore 429657,linkedin scrape
+119,30,Dragonfly. Media. Sendirian Berhad,+6596223751," admin@dragonfly.com ",DRAGONFLY.COM,,trade show list
+120,30,dragonfly media sendirian berhad,+6596223751,admin@dragonfly.com,,"96 cecil street, unit 34-47, singapore, 429657",scraped from directory
+121,31,Eclipse  Industrial,8144 6455,contact@hotmail.com,www.eclipse.com.sg,"17 Orchard Road, Unit 27-99, Batam, 702826",imported from CRM
+122,31,Eclipse Industrial Limited,+6581446455," contact@eclipse.com.sg ",,"17 Orchard Road, Unit 27-99, Batam, 702826",sales rep note
+123,31,ECLIPSE INDUSTRIAL LIMITED,,CONTACT@ECLIPSE.COM.SG,ECLIPSE.COM.SG,"17 Orchard Road, Unit 27-99, Batam, 702826",imported from CRM
+124,31,eclipse industrial limited,+65 8144 6455,contact@outlook.com,,"17 Orchard Road, Unit 27-99, Batam, 702826",trade show list
+125,32,FRONTIER AGRO CORP,,,http://frontieragro.com.sg,,imported from CRM
+126,32,Frontier  Agro,,HELLO@FRONTIERAGRO.COM.SG,https://www.frontieragro.com.sg/,"228 Pasir Panjang Road, Jakarta, 525818",sales rep note
+127,32,FRONTIER AGRO CORP,,hello@frontieragro.com.sg,http://frontieragro.com.sg,"228 pasir panjang road, jakarta, 525818",old sheet copy
+128,32,Frontier  Agro,,hello@hotmail.com,http://frontieragro.com.sg,"228 pasir panjang road, jakarta, 525818",scraped from directory
+129,33,Greenport Holdings Pte Ltd,+60 72-636-0971,,https://www.greenport.com.sg/,"91 SHENTON WAY, UNIT 39-84, SINGAPORE, 399628",old sheet copy
+130,33,GREENPORT HOLDINGS PTE. LTD.,+60 72-636-0971,hello@outlook.com,www.greenport.com.sg,"91 Shenton Way, Unit 39-84, Singapore, 399628",manual entry
+131,33,Greenport  Holdings,+60 72-636-0971,HELLO@GREENPORT.COM.SG,https://www.greenport.com.sg/,"91 SHENTON WAY, UNIT 39-84, SINGAPORE, 399628",scraped from directory
+132,33,Greenport  Holdings,+60 72-636-0971,HELLO@GREENPORT.COM.SG,,,sales rep note
+133,34,Helios. Automation. Limited Liability Company,,contact@heliosauto.com.sg,HELIOSAUTO.COM.SG,"77 cecil street, singapore, 759827",imported from CRM
+134,34,Helios Automation L.L.C.,,CONTACT@HELIOSAUTO.COM.SG,HELIOSAUTO.COM.SG,"77 cecil street, singapore, 759827",imported from CRM
+135,34,Helios Automation,+6599444301,contact@heliosauto.com.sg,,"77 Cecil Street, Singapore, 759827",sales rep note
+136,34,Helios Automation Limited Liability Company,+65 9944 4301,contact@hotmail.com,http://heliosauto.com.sg,,linkedin scrape
+137,35,Indigo Capital LLC,9484 8684,ADMIN@INDIGOCAP.SG,www.indigocap.sg,"181 Tanjong Pagar Rd, Penang, 401769",sales rep note
+138,35,IndigoCapital,+65 9484 8684,admin@yahoo.com,http://indigocap.sg,,imported from CRM
+139,35,Indigo Capital,+65 9484 8684,ADMIN@INDIGOCAP.SG,INDIGOCAP.SG,,linkedin scrape
+140,35,indigo capital llc,,,,"181 Tanjong Pagar Road, Penang, 401769",trade show list
+141,36,JuniperFoods,0060 80-040-0428,info@outlook.com,juniperfoods.com.sg,,linkedin scrape
+142,36,Juniper. Foods. Limited,+6080-040-0428," info@juniperfoods.com.sg ",http://juniperfoods.com.sg,"147 Tanjong Pagar Road, #03-23, Jakarta, 516278",linkedin scrape
+143,36,juniper foods ltd.,+60800400428,info@outlook.com,https://www.juniperfoods.com.sg/,"147 tanjong pagar road, #03-23, jakarta, 516278",website footer
+144,36,JUNIPER FOODS LTD.,,INFO@JUNIPERFOODS.COM.SG,juniperfoods.com.sg,147 Tanjong Pagar Road #03-23 Jakarta 516278,trade show list
+145,37,Keystone. Mobility. Sdn Bhd,,contact@keystonemobility.sg,www.keystonemobility.sg,"186 Ang Mo Kio Ave 5, Singapore, 165142",old sheet copy
+146,37,keystone mobility sdn bhd,+62 72-541-2469,,,"186 Ang Mo Kio Ave 5, Singapore, 165142",old sheet copy
+147,37,KEYSTONE MOBILITY SDN BHD,0062 72-541-2469,contact@keystonemobility.sg,,"186 Ang Mo Kio Ave 5, Singapore, 165142",imported from CRM
+148,37,Keystone. Mobility. SDN. BHD.,,contact@keystonemobility.sg,http://keystonemobility.sg,"186 ang mo kio ave 5, singapore, 165142",imported from CRM
+149,38,LOTUS NEXUS INC.,,,lotusnexus.sg,"186 Shenton Way, #17-01, Batam, 147489",imported from CRM
+150,38,Lotus Nexus Incorporated,+65-9517-0227,,www.lotusnexus.sg,"186 Shenton Way, #17-01, Batam, 147489",sales rep note
+151,38,Lotus Nexus Inc,(+65) 9517 0227,admin@lotusnexus.sg,LOTUSNEXUS.SG,"186 shenton way, #17-01, batam, 147489",website footer
+152,38,Lotus Nexus,+65 9517 0227," admin@lotusnexus.sg ",https://www.lotusnexus.sg/,"186 Shenton Way, #17-01, Batam, 147489",website footer
+153,39,Magna Office Inc,+65 8749 0038,sales@yahoo.com,https://www.magnaoffice.com/,,old sheet copy
+154,39,Magna Office,+65 8749 0038,sales@gmail.com,https://www.magnaoffice.com/,"154 pasir panjang road, unit 03-52, penang, 345722",linkedin scrape
+155,39,Magna Office Inc,,,https://www.magnaoffice.com/,"154 Pasir Panjang Road, Unit 03-52, Penang, 345722",linkedin scrape
+156,39,MagnaOffice,,sales@magnaoffice.com,http://magnaoffice.com,"154 Pasir Panjang Road, Unit 03-52, Penang, 345722",website footer
+157,40,Nova Freight,+6596225647,contact@novafreight.com,https://www.novafreight.com/,"24 Bukit Batok Crescent, #13-07, Penang",linkedin scrape
+158,40,Nova Freight,," contact@novafreight.com ",http://novafreight.com,,trade show list
+159,40,Nova. Freight. L.L.C.,," contact@novafreight.com ",NOVAFREIGHT.COM,"24 bukit batok crescent, #13-07, penang, 176319",scraped from directory
+160,40,nova freight l.l.c.,+6596225647," contact@novafreight.com ",,"24 Bukit Batok Crescent, #13-07, Penang, 176319",website footer
+161,41,Oakridge. Telecom. Incorporated,+65 9431 7226,admin@gmail.com,,"196 Cecil Street, Penang",scraped from directory
+162,41,Oakridge Telecom,,ADMIN@OAKRIDGE.SG,http://oakridge.sg,"196 Cecil St, Penang, 277487",linkedin scrape
+163,41,Oakridge Telecom Inc,+65 9431 7226,admin@oakridge.sg,,,trade show list
+164,41,Oakridge Telecom Inc,0065 9431 7226,admin@oakridge.sg,http://oakridge.sg,"196 Cecil Street, Penang, 277487",trade show list
+165,42,Prime Shelter LTD.,,INFO@PRIMESHELTER.SG,primeshelter.sg,,manual entry
+166,42,Prime Shelter,+65 9770 0704," info@primeshelter.sg ",PRIMESHELTER.SG,,scraped from directory
+167,42,Prime Shelter LTD.,,,,"145 Tanjong Pagar Road, #15-39, Penang, 198042",website footer
+168,42,Prime  Shelter,+65 9770 0704,info@primeshelter.sg,PRIMESHELTER.SG,"145 Tanjong Pagar Rd, #15-39, Penang, 198042",manual entry
+169,43,Riverstone Labs Sdn Bhd,+6595475691,CONTACT@RIVERSTONELABS.COM,,,imported from CRM
+170,43,riverstone labs sdn bhd,+65 9547 5691,contact@riverstonelabs.com,https://www.riverstonelabs.com/,"8 pasir panjang road, unit 15-46, kuala lumpur, 552825",sales rep note
+171,43,riverstone labs sdn bhd,+65 9547 5691,contact@hotmail.com,www.riverstonelabs.com,"8 PASIR PANJANG ROAD, UNIT 15-46, KUALA LUMPUR, 552825",scraped from directory
+172,43,RIVERSTONE LABS SDN BHD,,contact@riverstonelabs.com,https://www.riverstonelabs.com/,"8 PASIR PANJANG ROAD, UNIT 15-46, KUALA LUMPUR, 552825",old sheet copy
+173,44,Summit  Paper,0065 9505 2144,hello@hotmail.com,http://summitpaper.com,"69 CECIL STREET, UNIT 28-36, JOHOR BAHRU, 414313",imported from CRM
+174,44,Summit Paper INC.,," hello@summitpaper.com ",,"69 Cecil Street, Unit 28-36, Johor Bahru, 414313",trade show list
+175,44,Summit Paper,+65 9505 2144," hello@summitpaper.com ",http://summitpaper.com,"69 cecil street, unit 28-36, johor bahru, 414313",old sheet copy
+176,44,SummitPaper,0065 9505 2144,hello@summitpaper.com,www.summitpaper.com,"69 Cecil Street, Unit 28-36, Johor Bahru, 414313",scraped from directory
+177,45,Trident Cooling Corp,+65 9116 0289,sales@hotmail.com,tridentcooling.com.sg,"210 ubi avenue 1, penang, 790658",scraped from directory
+178,45,TRIDENT COOLING CORP.,+65 9116 0289,SALES@TRIDENTCOOLING.COM.SG,http://tridentcooling.com.sg,"210 ubi avenue 1, penang, 790658",sales rep note
+179,45,Trident Cooling CORP.,,,http://tridentcooling.com.sg,"210 Ubi Avenue 1, Penang, 790658",sales rep note
+180,45,TRIDENT COOLING CORP.,,SALES@TRIDENTCOOLING.COM.SG,tridentcooling.com.sg,"210 ubi avenue 1, penang, 790658",old sheet copy
+181,46,unity mercantile inc.,,,https://www.unitymercantile.sg/,"18 Orchard Road, #08-03, Singapore, 272337",imported from CRM
+182,46,Unity Mercantile Incorporated,,,UNITYMERCANTILE.SG,"18 ORCHARD ROAD, #08-03, SINGAPORE, 272337",old sheet copy
+183,46,UNITY MERCANTILE INC.,9535 0413," hello@unitymercantile.sg ",,"18 ORCHARD ROAD, #08-03, SINGAPORE, 272337",trade show list
+184,46,Unity  Mercantile,,hello@hotmail.com,,"18 orchard road, #08-03, singapore, 272337",imported from CRM
+185,47,vista maritime corporation,+65 8525 4384,,www.vistamaritime.sg,"31 Tanjong Pagar Road, Kuala Lumpur, 635638",imported from CRM
+186,47,vista maritime corporation,," admin@vistamaritime.sg ",www.vistamaritime.sg,"31 Tanjong Pagar Road, Kuala Lumpur, 635638",website footer
+187,47,Vista. Maritime. Corporation,+65-8525-4384,,www.vistamaritime.sg,"31 Tanjong Pagar Road, Kuala Lumpur, 635638",old sheet copy
+188,47,VistaMaritime,+65 8525 4384,,https://www.vistamaritime.sg/,"31 TANJONG PAGAR ROAD, KUALA LUMPUR, 635638",manual entry
+189,48,WindwardRobotics,(+60) 9160 48218,admin@windward.sg,windward.sg,,website footer
+190,48,windward robotics limited,+60 91-604-8218,admin@gmail.com,http://windward.sg,"185 Cecil Street, Jakarta, 412170",sales rep note
+191,48,WindwardRobotics,,ADMIN@WINDWARD.SG,,,imported from CRM
+192,48,Windward Robotics,+60-91-604-8218,,https://www.windward.sg/,,website footer
+193,49,Yorkstone  Assets,+65-9619-1986,INFO@YORKSTONE.COM,,,sales rep note
+194,49,yorkstone assets sdn. bhd.,+65 9619 1986,info@yorkstone.com,www.yorkstone.com,"117 cecil street, unit 06-94, kuala lumpur, 765678",scraped from directory
+195,49,Yorkstone. Assets. Sdn Bhd,,INFO@YORKSTONE.COM,www.yorkstone.com,,manual entry
+196,49,YorkstoneAssets,+65 9619 1986,info@yorkstone.com,YORKSTONE.COM,"117 Cecil Street, Unit 06-94, Kuala Lumpur, 765678",website footer
+197,50,zeta pharm corp,+6591307594,info@zetapharm.com.sg,http://zetapharm.com.sg,,sales rep note
+198,50,Zeta Pharm CORP.,+65 9130 7594,info@zetapharm.com.sg,http://zetapharm.com.sg,"34 Ang Mo Kio Ave 5, #34-88, Johor Bahru, 460263",linkedin scrape
+199,50,Zeta Pharm,,info@hotmail.com,http://zetapharm.com.sg,34 Ang Mo Kio Ave 5 #34-88 Johor Bahru 460263,manual entry
+200,50,Zeta Pharm Corp,,INFO@ZETAPHARM.COM.SG,www.zetapharm.com.sg,"34 Ang Mo Kio Ave 5, #34-88, Johor Bahru",old sheet copy
+201,51,Apex Trading Intl Pte Ltd,+65 8123 5101,ops@apextradingintl.sg,https://www.apextradingintl.sg/,"10 Anson Road, #15-11, Singapore, 079903",hard_case|family=HC01|negative_type=hard_negative_region_variant|scenario=hard_positive_abbreviation|hardness=h3
+202,51,ApexTradingInternational,8123 5101,ops@apextradingintl.sg,http://apextradingintl.sg,"10 Anson Road, #15-11, Singapore, 079903",hard_case|family=HC01|negative_type=hard_negative_region_variant|scenario=hard_positive_join_split|hardness=h3
+203,51,International Apex Trading,,OPS@APEXTRADINGINTL.SG,www.apextradingintl.sg,"10 Anson Road, #15-11, Singapore, 079903",hard_case|family=HC01|negative_type=hard_negative_region_variant|scenario=hard_positive_reordered_tokens|hardness=h2
+204,51,Apex Trading International Branch SG,+65 8123 5101," ops@apextradingintl.sg ",apextradingintl.sg,"10 Anson Road 15-11, Singapore, 079903",hard_case|family=HC01|negative_type=hard_negative_region_variant|scenario=hard_positive_region_qualifier|hardness=h2
+205,52,Apex Trading Asia Pte Ltd,+65 8123 5102,ops@apextradingasia.sg,https://www.apextradingasia.sg/,"12 Anson Road, #15-12, Singapore, 079903",hard_case|family=HC01|negative_type=hard_negative_region_variant|scenario=hard_positive_legal_suffix|hardness=h3
+206,52,ApexTradingAsia,8123 5102,ops@apextradingasia.sg,http://apextradingasia.sg,"12 Anson Road, #15-12, Singapore, 079903",hard_case|family=HC01|negative_type=hard_negative_region_variant|scenario=hard_positive_join_split|hardness=h3
+207,52,Asia Apex Trading,,OPS@APEXTRADINGASIA.SG,www.apextradingasia.sg,"12 Anson Road, #15-12, Singapore, 079903",hard_case|family=HC01|negative_type=hard_negative_region_variant|scenario=hard_positive_reordered_tokens|hardness=h2
+208,52,Apex Trading Asia Branch SG,+65 8123 5102," ops@apextradingasia.sg ",apextradingasia.sg,"12 Anson Road 15-12, Singapore, 079903",hard_case|family=HC01|negative_type=hard_negative_region_variant|scenario=hard_positive_region_qualifier|hardness=h2
+209,53,Delta Supplies Private Limited,+65 8123 5201,contact@deltasupplies.sg,https://www.deltasupplies.sg/,"21 Ubi Avenue 1, #08-02, Singapore, 408724",hard_case|family=HC02|negative_type=hard_negative_industry_overlap|scenario=hard_positive_legal_suffix|hardness=h3
+210,53,Delta Svc Supplies,8123 5201,contact@deltasupplies.sg,http://deltasupplies.sg,"21 Ubi Avenue 1, #08-02, Singapore, 408724",hard_case|family=HC02|negative_type=hard_negative_industry_overlap|scenario=hard_positive_abbreviation|hardness=h3
+211,53,DeltaSupplies,,CONTACT@DELTASUPPLIES.SG,www.deltasupplies.sg,"21 Ubi Avenue 1, #08-02, Singapore, 408724",hard_case|family=HC02|negative_type=hard_negative_industry_overlap|scenario=hard_positive_join_split|hardness=h2
+212,53,Supplies Delta,+65 8123 5201," contact@deltasupplies.sg ",deltasupplies.sg,"21 Ubi Avenue 1 08-02, Singapore, 408724",hard_case|family=HC02|negative_type=hard_negative_industry_overlap|scenario=hard_positive_reordered_tokens|hardness=h2
+213,54,Delta Supply Chain Private Limited,+65 8123 5202,contact@deltasupplychain.sg,https://www.deltasupplychain.sg/,"23 Ubi Avenue 1, #08-03, Singapore, 408724",hard_case|family=HC02|negative_type=hard_negative_industry_overlap|scenario=hard_positive_legal_suffix|hardness=h3
+214,54,Delta Supply Chn,8123 5202,contact@deltasupplychain.sg,http://deltasupplychain.sg,"23 Ubi Avenue 1, #08-03, Singapore, 408724",hard_case|family=HC02|negative_type=hard_negative_industry_overlap|scenario=hard_positive_abbreviation|hardness=h3
+215,54,DeltaSupplyChain,,CONTACT@DELTASUPPLYCHAIN.SG,www.deltasupplychain.sg,"23 Ubi Avenue 1, #08-03, Singapore, 408724",hard_case|family=HC02|negative_type=hard_negative_industry_overlap|scenario=hard_positive_join_split|hardness=h2
+216,54,Supply Chain Delta,+65 8123 5202," contact@deltasupplychain.sg ",deltasupplychain.sg,"23 Ubi Avenue 1 08-03, Singapore, 408724",hard_case|family=HC02|negative_type=hard_negative_industry_overlap|scenario=hard_positive_reordered_tokens|hardness=h2
+217,55,Silverline Motor Company LLC,+65 8123 5301,hello@silverlinemotors.sg,https://www.silverlinemotors.sg/,"60 Kallang Place, #04-21, Singapore, 339172",hard_case|family=HC03|negative_type=hard_negative_near_collision|scenario=hard_positive_alias|hardness=h3
+218,55,SilverlineMotors,8123 5301,hello@silverlinemotors.sg,http://silverlinemotors.sg,"60 Kallang Place, #04-21, Singapore, 339172",hard_case|family=HC03|negative_type=hard_negative_near_collision|scenario=hard_positive_join_split|hardness=h3
+219,55,Motors Silverline,,HELLO@SILVERLINEMOTORS.SG,www.silverlinemotors.sg,"60 Kallang Place, #04-21, Singapore, 339172",hard_case|family=HC03|negative_type=hard_negative_near_collision|scenario=hard_positive_reordered_tokens|hardness=h2
+220,55,Silverline Motors SG Branch,+65 8123 5301," hello@silverlinemotors.sg ",silverlinemotors.sg,"60 Kallang Place 04-21, Singapore, 339172",hard_case|family=HC03|negative_type=hard_negative_near_collision|scenario=hard_positive_region_qualifier|hardness=h2
+221,56,Silverline Motor Works Pte Ltd,+65 8123 5302,hello@silverlinemotorworks.sg,https://www.silverlinemotorworks.sg/,"61 Kallang Place, #04-22, Singapore, 339172",hard_case|family=HC03|negative_type=hard_negative_near_collision|scenario=hard_positive_alias|hardness=h3
+222,56,SilverlineMotorworks,8123 5302,hello@silverlinemotorworks.sg,http://silverlinemotorworks.sg,"61 Kallang Place, #04-22, Singapore, 339172",hard_case|family=HC03|negative_type=hard_negative_near_collision|scenario=hard_positive_join_split|hardness=h3
+223,56,Motorworks Silverline,,HELLO@SILVERLINEMOTORWORKS.SG,www.silverlinemotorworks.sg,"61 Kallang Place, #04-22, Singapore, 339172",hard_case|family=HC03|negative_type=hard_negative_near_collision|scenario=hard_positive_reordered_tokens|hardness=h2
+224,56,Silverline Motorworks SG Branch,+65 8123 5302," hello@silverlinemotorworks.sg ",silverlinemotorworks.sg,"61 Kallang Place 04-22, Singapore, 339172",hard_case|family=HC03|negative_type=hard_negative_near_collision|scenario=hard_positive_region_qualifier|hardness=h2
+225,57,NovaTech,+65 8123 5401,team@novatechnologies.sg,https://www.novatechnologies.sg/,"88 Tanjong Pagar Road, #09-16, Singapore, 088509",hard_case|family=HC04|negative_type=hard_negative_brand_family|scenario=hard_positive_alias|hardness=h3
+226,57,Nova Technologies Incorporated,8123 5401,team@novatechnologies.sg,http://novatechnologies.sg,"88 Tanjong Pagar Road, #09-16, Singapore, 088509",hard_case|family=HC04|negative_type=hard_negative_brand_family|scenario=hard_positive_legal_suffix|hardness=h3
+227,57,NovaTechnologies,,TEAM@NOVATECHNOLOGIES.SG,www.novatechnologies.sg,"88 Tanjong Pagar Road, #09-16, Singapore, 088509",hard_case|family=HC04|negative_type=hard_negative_brand_family|scenario=hard_positive_join_split|hardness=h2
+228,57,Technologies Nova,+65 8123 5401," team@novatechnologies.sg ",novatechnologies.sg,"88 Tanjong Pagar Road 09-16, Singapore, 088509",hard_case|family=HC04|negative_type=hard_negative_brand_family|scenario=hard_positive_reordered_tokens|hardness=h2
+229,58,Nova Technology Solutions,+65 8123 5402,team@novatechsolutions.sg,https://www.novatechsolutions.sg/,"89 Tanjong Pagar Road, #09-17, Singapore, 088509",hard_case|family=HC04|negative_type=hard_negative_brand_family|scenario=hard_positive_alias|hardness=h3
+230,58,Nova Tech Solutions Incorporated,8123 5402,team@novatechsolutions.sg,http://novatechsolutions.sg,"89 Tanjong Pagar Road, #09-17, Singapore, 088509",hard_case|family=HC04|negative_type=hard_negative_brand_family|scenario=hard_positive_legal_suffix|hardness=h3
+231,58,NovaTechSolutions,,TEAM@NOVATECHSOLUTIONS.SG,www.novatechsolutions.sg,"89 Tanjong Pagar Road, #09-17, Singapore, 088509",hard_case|family=HC04|negative_type=hard_negative_brand_family|scenario=hard_positive_join_split|hardness=h2
+232,58,Solutions Nova Tech,+65 8123 5402," team@novatechsolutions.sg ",novatechsolutions.sg,"89 Tanjong Pagar Road 09-17, Singapore, 088509",hard_case|family=HC04|negative_type=hard_negative_brand_family|scenario=hard_positive_reordered_tokens|hardness=h2
+233,59,Crestview Engrg Corp,+65 8123 5501,admin@crestvieweng.sg,https://www.crestvieweng.sg/,"102 Jurong East St 21, #07-04, Singapore, 609607",hard_case|family=HC05|negative_type=hard_negative_industry_overlap|scenario=hard_positive_abbreviation|hardness=h3
+234,59,CrestviewEngineering,8123 5501,admin@crestvieweng.sg,http://crestvieweng.sg,"102 Jurong East St 21, #07-04, Singapore, 609607",hard_case|family=HC05|negative_type=hard_negative_industry_overlap|scenario=hard_positive_join_split|hardness=h3
+235,59,Engineering Crestview,,ADMIN@CRESTVIEWENG.SG,www.crestvieweng.sg,"102 Jurong East St 21, #07-04, Singapore, 609607",hard_case|family=HC05|negative_type=hard_negative_industry_overlap|scenario=hard_positive_reordered_tokens|hardness=h2
+236,59,Crestview Engineering SG,+65 8123 5501," admin@crestvieweng.sg ",crestvieweng.sg,"102 Jurong East St 21 07-04, Singapore, 609607",hard_case|family=HC05|negative_type=hard_negative_industry_overlap|scenario=hard_positive_region_qualifier|hardness=h2
+237,60,Crestview Energy Corp,+65 8123 5502,admin@crestviewenergy.sg,https://www.crestviewenergy.sg/,"103 Jurong East St 21, #07-05, Singapore, 609607",hard_case|family=HC05|negative_type=hard_negative_industry_overlap|scenario=hard_positive_abbreviation|hardness=h3
+238,60,CrestviewEnergy,8123 5502,admin@crestviewenergy.sg,http://crestviewenergy.sg,"103 Jurong East St 21, #07-05, Singapore, 609607",hard_case|family=HC05|negative_type=hard_negative_industry_overlap|scenario=hard_positive_join_split|hardness=h3
+239,60,Energy Crestview,,ADMIN@CRESTVIEWENERGY.SG,www.crestviewenergy.sg,"103 Jurong East St 21, #07-05, Singapore, 609607",hard_case|family=HC05|negative_type=hard_negative_industry_overlap|scenario=hard_positive_reordered_tokens|hardness=h2
+240,60,Crestview Energy SG,+65 8123 5502," admin@crestviewenergy.sg ",crestviewenergy.sg,"103 Jurong East St 21 07-05, Singapore, 609607",hard_case|family=HC05|negative_type=hard_negative_industry_overlap|scenario=hard_positive_region_qualifier|hardness=h2
+241,61,Harbourlink Svc Pte Ltd,+65 8123 5601,ops@harbourlinkservices.sg,https://www.harbourlinkservices.sg/,"45 Pasir Panjang Road, #12-03, Singapore, 118502",hard_case|family=HC06|negative_type=hard_negative_near_collision|scenario=hard_positive_abbreviation|hardness=h3
+242,61,HarbourlinkServices,8123 5601,ops@harbourlinkservices.sg,http://harbourlinkservices.sg,"45 Pasir Panjang Road, #12-03, Singapore, 118502",hard_case|family=HC06|negative_type=hard_negative_near_collision|scenario=hard_positive_join_split|hardness=h3
+243,61,Services Harbourlink,,OPS@HARBOURLINKSERVICES.SG,www.harbourlinkservices.sg,"45 Pasir Panjang Road, #12-03, Singapore, 118502",hard_case|family=HC06|negative_type=hard_negative_near_collision|scenario=hard_positive_reordered_tokens|hardness=h2
+244,61,Harbourlink Services SG Branch,+65 8123 5601," ops@harbourlinkservices.sg ",harbourlinkservices.sg,"45 Pasir Panjang Road 12-03, Singapore, 118502",hard_case|family=HC06|negative_type=hard_negative_near_collision|scenario=hard_positive_region_qualifier|hardness=h2
+245,62,Harbourline Svc Pte Ltd,+65 8123 5602,ops@harbourlineservices.sg,https://www.harbourlineservices.sg/,"46 Pasir Panjang Road, #12-04, Singapore, 118502",hard_case|family=HC06|negative_type=hard_negative_near_collision|scenario=hard_positive_abbreviation|hardness=h3
+246,62,HarbourlineServices,8123 5602,ops@harbourlineservices.sg,http://harbourlineservices.sg,"46 Pasir Panjang Road, #12-04, Singapore, 118502",hard_case|family=HC06|negative_type=hard_negative_near_collision|scenario=hard_positive_join_split|hardness=h3
+247,62,Services Harbourline,,OPS@HARBOURLINESERVICES.SG,www.harbourlineservices.sg,"46 Pasir Panjang Road, #12-04, Singapore, 118502",hard_case|family=HC06|negative_type=hard_negative_near_collision|scenario=hard_positive_reordered_tokens|hardness=h2
+248,62,Harbourline Services SG Branch,+65 8123 5602," ops@harbourlineservices.sg ",harbourlineservices.sg,"46 Pasir Panjang Road 12-04, Singapore, 118502",hard_case|family=HC06|negative_type=hard_negative_near_collision|scenario=hard_positive_region_qualifier|hardness=h2
+249,63,Meridian Pkg LLC,+65 8123 5701,hello@meridianpackaging.sg,https://www.meridianpackaging.sg/,"11 Tai Seng Drive, #10-02, Singapore, 535226",hard_case|family=HC07|negative_type=hard_negative_industry_overlap|scenario=hard_positive_abbreviation|hardness=h3
+250,63,MeridianPackaging,8123 5701,hello@meridianpackaging.sg,http://meridianpackaging.sg,"11 Tai Seng Drive, #10-02, Singapore, 535226",hard_case|family=HC07|negative_type=hard_negative_industry_overlap|scenario=hard_positive_join_split|hardness=h3
+251,63,Packaging Meridian,,HELLO@MERIDIANPACKAGING.SG,www.meridianpackaging.sg,"11 Tai Seng Drive, #10-02, Singapore, 535226",hard_case|family=HC07|negative_type=hard_negative_industry_overlap|scenario=hard_positive_reordered_tokens|hardness=h2
+252,63,Meridian Packaging Asia,+65 8123 5701," hello@meridianpackaging.sg ",meridianpackaging.sg,"11 Tai Seng Drive 10-02, Singapore, 535226",hard_case|family=HC07|negative_type=hard_negative_industry_overlap|scenario=hard_positive_region_qualifier|hardness=h2
+253,64,Meridian Pkgrs LLC,+65 8123 5702,hello@meridianpackagers.sg,https://www.meridianpackagers.sg/,"12 Tai Seng Drive, #10-03, Singapore, 535226",hard_case|family=HC07|negative_type=hard_negative_industry_overlap|scenario=hard_positive_abbreviation|hardness=h3
+254,64,MeridianPackagers,8123 5702,hello@meridianpackagers.sg,http://meridianpackagers.sg,"12 Tai Seng Drive, #10-03, Singapore, 535226",hard_case|family=HC07|negative_type=hard_negative_industry_overlap|scenario=hard_positive_join_split|hardness=h3
+255,64,Packagers Meridian,,HELLO@MERIDIANPACKAGERS.SG,www.meridianpackagers.sg,"12 Tai Seng Drive, #10-03, Singapore, 535226",hard_case|family=HC07|negative_type=hard_negative_industry_overlap|scenario=hard_positive_reordered_tokens|hardness=h2
+256,64,Meridian Packagers Asia,+65 8123 5702," hello@meridianpackagers.sg ",meridianpackagers.sg,"12 Tai Seng Drive 10-03, Singapore, 535226",hard_case|family=HC07|negative_type=hard_negative_industry_overlap|scenario=hard_positive_region_qualifier|hardness=h2
+257,65,Falcon Marine Sys Ltd,+65 8123 5801,ops@falconmarinesystems.sg,https://www.falconmarinesystems.sg/,"9 Marina Boulevard, #18-12, Singapore, 018989",hard_case|family=HC08|negative_type=hard_negative_brand_family|scenario=hard_positive_abbreviation|hardness=h3
+258,65,FalconMarineSystems,8123 5801,ops@falconmarinesystems.sg,http://falconmarinesystems.sg,"9 Marina Boulevard, #18-12, Singapore, 018989",hard_case|family=HC08|negative_type=hard_negative_brand_family|scenario=hard_positive_join_split|hardness=h3
+259,65,Marine Systems Falcon,,OPS@FALCONMARINESYSTEMS.SG,www.falconmarinesystems.sg,"9 Marina Boulevard, #18-12, Singapore, 018989",hard_case|family=HC08|negative_type=hard_negative_brand_family|scenario=hard_positive_reordered_tokens|hardness=h2
+260,65,Falcon Marine Systems SG,+65 8123 5801," ops@falconmarinesystems.sg ",falconmarinesystems.sg,"9 Marina Boulevard 18-12, Singapore, 018989",hard_case|family=HC08|negative_type=hard_negative_brand_family|scenario=hard_positive_region_qualifier|hardness=h2
+261,66,Falcon Maritime Sys Ltd,+65 8123 5802,ops@falconmaritimesystems.sg,https://www.falconmaritimesystems.sg/,"10 Marina Boulevard, #18-13, Singapore, 018989",hard_case|family=HC08|negative_type=hard_negative_brand_family|scenario=hard_positive_abbreviation|hardness=h3
+262,66,FalconMaritimeSystems,8123 5802,ops@falconmaritimesystems.sg,http://falconmaritimesystems.sg,"10 Marina Boulevard, #18-13, Singapore, 018989",hard_case|family=HC08|negative_type=hard_negative_brand_family|scenario=hard_positive_join_split|hardness=h3
+263,66,Maritime Systems Falcon,,OPS@FALCONMARITIMESYSTEMS.SG,www.falconmaritimesystems.sg,"10 Marina Boulevard, #18-13, Singapore, 018989",hard_case|family=HC08|negative_type=hard_negative_brand_family|scenario=hard_positive_reordered_tokens|hardness=h2
+264,66,Falcon Maritime Systems SG,+65 8123 5802," ops@falconmaritimesystems.sg ",falconmaritimesystems.sg,"10 Marina Boulevard 18-13, Singapore, 018989",hard_case|family=HC08|negative_type=hard_negative_brand_family|scenario=hard_positive_region_qualifier|hardness=h2
+265,67,Ionix Solns Sdn Bhd,+65 8123 5901,sales@ionixsolutions.sg,https://www.ionixsolutions.sg/,"35 Robinson Road, #21-10, Singapore, 068876",hard_case|family=HC09|negative_type=hard_negative_near_collision|scenario=hard_positive_abbreviation|hardness=h3
+266,67,IonixSolutions,8123 5901,sales@ionixsolutions.sg,http://ionixsolutions.sg,"35 Robinson Road, #21-10, Singapore, 068876",hard_case|family=HC09|negative_type=hard_negative_near_collision|scenario=hard_positive_join_split|hardness=h3
+267,67,Solutions Ionix,,SALES@IONIXSOLUTIONS.SG,www.ionixsolutions.sg,"35 Robinson Road, #21-10, Singapore, 068876",hard_case|family=HC09|negative_type=hard_negative_near_collision|scenario=hard_positive_reordered_tokens|hardness=h2
+268,67,Ionix Solutions Branch SG,+65 8123 5901," sales@ionixsolutions.sg ",ionixsolutions.sg,"35 Robinson Road 21-10, Singapore, 068876",hard_case|family=HC09|negative_type=hard_negative_near_collision|scenario=hard_positive_region_qualifier|hardness=h2
+269,68,Ionic Solns Sdn Bhd,+65 8123 5902,sales@ionicsolutions.sg,https://www.ionicsolutions.sg/,"36 Robinson Road, #21-11, Singapore, 068876",hard_case|family=HC09|negative_type=hard_negative_near_collision|scenario=hard_positive_abbreviation|hardness=h3
+270,68,IonicSolutions,8123 5902,sales@ionicsolutions.sg,http://ionicsolutions.sg,"36 Robinson Road, #21-11, Singapore, 068876",hard_case|family=HC09|negative_type=hard_negative_near_collision|scenario=hard_positive_join_split|hardness=h3
+271,68,Solutions Ionic,,SALES@IONICSOLUTIONS.SG,www.ionicsolutions.sg,"36 Robinson Road, #21-11, Singapore, 068876",hard_case|family=HC09|negative_type=hard_negative_near_collision|scenario=hard_positive_reordered_tokens|hardness=h2
+272,68,Ionic Solutions Branch SG,+65 8123 5902," sales@ionicsolutions.sg ",ionicsolutions.sg,"36 Robinson Road 21-11, Singapore, 068876",hard_case|family=HC09|negative_type=hard_negative_near_collision|scenario=hard_positive_region_qualifier|hardness=h2
+273,69,Redwood Analytx,+65 8123 6001,team@redwoodanalytics.sg,https://www.redwoodanalytics.sg/,"70 Cecil Street, #14-01, Singapore, 049705",hard_case|family=HC10|negative_type=hard_negative_near_collision|scenario=hard_positive_abbreviation|hardness=h3
+274,69,RedwoodAnalytics,8123 6001,team@redwoodanalytics.sg,http://redwoodanalytics.sg,"70 Cecil Street, #14-01, Singapore, 049705",hard_case|family=HC10|negative_type=hard_negative_near_collision|scenario=hard_positive_join_split|hardness=h3
+275,69,Analytics Redwood,,TEAM@REDWOODANALYTICS.SG,www.redwoodanalytics.sg,"70 Cecil Street, #14-01, Singapore, 049705",hard_case|family=HC10|negative_type=hard_negative_near_collision|scenario=hard_positive_reordered_tokens|hardness=h2
+276,69,Redwood Analytics SG,+65 8123 6001," team@redwoodanalytics.sg ",redwoodanalytics.sg,"70 Cecil Street 14-01, Singapore, 049705",hard_case|family=HC10|negative_type=hard_negative_near_collision|scenario=hard_positive_region_qualifier|hardness=h2
+277,70,Redwood Analytica Pte Ltd,+65 8123 6002,team@redwoodanalytica.sg,https://www.redwoodanalytica.sg/,"71 Cecil Street, #14-02, Singapore, 049705",hard_case|family=HC10|negative_type=hard_negative_near_collision|scenario=hard_positive_legal_suffix|hardness=h3
+278,70,RedwoodAnalytica,8123 6002,team@redwoodanalytica.sg,http://redwoodanalytica.sg,"71 Cecil Street, #14-02, Singapore, 049705",hard_case|family=HC10|negative_type=hard_negative_near_collision|scenario=hard_positive_join_split|hardness=h3
+279,70,Analytica Redwood,,TEAM@REDWOODANALYTICA.SG,www.redwoodanalytica.sg,"71 Cecil Street, #14-02, Singapore, 049705",hard_case|family=HC10|negative_type=hard_negative_near_collision|scenario=hard_positive_reordered_tokens|hardness=h2
+280,70,Redwood Analytica SG,+65 8123 6002," team@redwoodanalytica.sg ",redwoodanalytica.sg,"71 Cecil Street 14-02, Singapore, 049705",hard_case|family=HC10|negative_type=hard_negative_near_collision|scenario=hard_positive_region_qualifier|hardness=h2
+281,71,Bluefin Digi Labs Corp,+65 8123 6101,contact@bluefindigitallabs.sg,https://www.bluefindigitallabs.sg/,"8 Science Park Drive, #05-22, Singapore, 118265",hard_case|family=HC11|negative_type=hard_negative_brand_family|scenario=hard_positive_abbreviation|hardness=h3
+282,71,BluefinDigitalLabs,8123 6101,contact@bluefindigitallabs.sg,http://bluefindigitallabs.sg,"8 Science Park Drive, #05-22, Singapore, 118265",hard_case|family=HC11|negative_type=hard_negative_brand_family|scenario=hard_positive_join_split|hardness=h3
+283,71,Digital Labs Bluefin,,CONTACT@BLUEFINDIGITALLABS.SG,www.bluefindigitallabs.sg,"8 Science Park Drive, #05-22, Singapore, 118265",hard_case|family=HC11|negative_type=hard_negative_brand_family|scenario=hard_positive_reordered_tokens|hardness=h2
+284,71,Bluefin Digital Labs SG,+65 8123 6101," contact@bluefindigitallabs.sg ",bluefindigitallabs.sg,"8 Science Park Drive 05-22, Singapore, 118265",hard_case|family=HC11|negative_type=hard_negative_brand_family|scenario=hard_positive_region_qualifier|hardness=h2
+285,72,Bluefin Digi Logistics Corp,+65 8123 6102,contact@bluefindigitallogistics.sg,https://www.bluefindigitallogistics.sg/,"9 Science Park Drive, #05-23, Singapore, 118265",hard_case|family=HC11|negative_type=hard_negative_brand_family|scenario=hard_positive_abbreviation|hardness=h3
+286,72,BluefinDigitalLogistics,8123 6102,contact@bluefindigitallogistics.sg,http://bluefindigitallogistics.sg,"9 Science Park Drive, #05-23, Singapore, 118265",hard_case|family=HC11|negative_type=hard_negative_brand_family|scenario=hard_positive_join_split|hardness=h3
+287,72,Digital Logistics Bluefin,,CONTACT@BLUEFINDIGITALLOGISTICS.SG,www.bluefindigitallogistics.sg,"9 Science Park Drive, #05-23, Singapore, 118265",hard_case|family=HC11|negative_type=hard_negative_brand_family|scenario=hard_positive_reordered_tokens|hardness=h2
+288,72,Bluefin Digital Logistics SG,+65 8123 6102," contact@bluefindigitallogistics.sg ",bluefindigitallogistics.sg,"9 Science Park Drive 05-23, Singapore, 118265",hard_case|family=HC11|negative_type=hard_negative_brand_family|scenario=hard_positive_region_qualifier|hardness=h2
+289,73,Quantum Fleet Svcs LLC,+65 8123 6201,ops@quantumfleetservices.sg,https://www.quantumfleetservices.sg/,"27 Changi Business Park, #11-06, Singapore, 486038",hard_case|family=HC12|negative_type=hard_negative_near_collision|scenario=hard_positive_abbreviation|hardness=h3
+290,73,QuantumFleetServices,8123 6201,ops@quantumfleetservices.sg,http://quantumfleetservices.sg,"27 Changi Business Park, #11-06, Singapore, 486038",hard_case|family=HC12|negative_type=hard_negative_near_collision|scenario=hard_positive_join_split|hardness=h3
+291,73,Fleet Services Quantum,,OPS@QUANTUMFLEETSERVICES.SG,www.quantumfleetservices.sg,"27 Changi Business Park, #11-06, Singapore, 486038",hard_case|family=HC12|negative_type=hard_negative_near_collision|scenario=hard_positive_reordered_tokens|hardness=h2
+292,73,Quantum Fleet Services SG,+65 8123 6201," ops@quantumfleetservices.sg ",quantumfleetservices.sg,"27 Changi Business Park 11-06, Singapore, 486038",hard_case|family=HC12|negative_type=hard_negative_near_collision|scenario=hard_positive_region_qualifier|hardness=h2
+293,74,Quantum Freight Svcs LLC,+65 8123 6202,ops@quantumfreightservices.sg,https://www.quantumfreightservices.sg/,"28 Changi Business Park, #11-07, Singapore, 486038",hard_case|family=HC12|negative_type=hard_negative_near_collision|scenario=hard_positive_abbreviation|hardness=h3
+294,74,QuantumFreightServices,8123 6202,ops@quantumfreightservices.sg,http://quantumfreightservices.sg,"28 Changi Business Park, #11-07, Singapore, 486038",hard_case|family=HC12|negative_type=hard_negative_near_collision|scenario=hard_positive_join_split|hardness=h3
+295,74,Freight Services Quantum,,OPS@QUANTUMFREIGHTSERVICES.SG,www.quantumfreightservices.sg,"28 Changi Business Park, #11-07, Singapore, 486038",hard_case|family=HC12|negative_type=hard_negative_near_collision|scenario=hard_positive_reordered_tokens|hardness=h2
+296,74,Quantum Freight Services SG,+65 8123 6202," ops@quantumfreightservices.sg ",quantumfreightservices.sg,"28 Changi Business Park 11-07, Singapore, 486038",hard_case|family=HC12|negative_type=hard_negative_near_collision|scenario=hard_positive_region_qualifier|hardness=h2

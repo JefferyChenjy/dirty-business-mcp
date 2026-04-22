@@ -1,0 +1,39 @@
+[
+  {
+    "id": "1",
+    "name": "Grab Pte. Ltd.",
+    "phone": "+65 6123 4567",
+    "email": "ops@grab.com",
+    "website": "https://www.grab.com",
+    "address": "Singapore"
+  },
+  {
+    "id": "2",
+    "name": "GRAB PTE LTD",
+    "phone": "(+65)61234567",
+    "email": "Ops@Grab.com",
+    "website": "grab.com/",
+    "address": "Singapore HQ"
+  },
+  {
+    "id": "3",
+    "name": "Shopee Xpress Sdn Bhd",
+    "phone": "+65 6777 2222",
+    "email": "contact@spx.sg",
+    "website": "https://spx.sg",
+    "address": "Singapore"
+  },
+  {
+    "id": "4",
+    "name": "SPX EXPRESS",
+    "phone": "+65 6777 2222",
+    "email": "support@spx.sg",
+    "website": "http://www.spx.sg/",
+    "address": "SG"
+  },
+  {
+    "id": "5",
+    "name": "Unknown Merchant",
+    "email": "owner@gmail.com"
+  }
+]

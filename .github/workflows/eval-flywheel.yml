@@ -1,0 +1,81 @@
+name: eval-flywheel
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run flywheel
+        env:
+          DEDUPE_PRECISION_GATE: "0.70"
+        run: npm run ci:flywheel
+
+      - name: Validate metrics.json schema
+        run: |
+          node -e "
+          const fs=require('fs');
+          const p='outputs/latest/metrics.json';
+          if(!fs.existsSync(p)){throw new Error('metrics.json missing');}
+          const m=JSON.parse(fs.readFileSync(p,'utf8'));
+          const required=['dedupe','clustering','normalization','fields','run_meta'];
+          for (const k of required) { if (!(k in m)) throw new Error('metrics.json missing key: '+k); }
+          if (typeof m.dedupe.precision !== 'number') throw new Error('metrics.dedupe.precision must be number');
+          console.log('metrics.json valid');
+          "
+
+      - name: Print key metrics
+        run: |
+          node -e "
+          const fs=require('fs');
+          const m=JSON.parse(fs.readFileSync('outputs/latest/metrics.json','utf8'));
+          console.log('dedupe.precision=', m.dedupe.precision);
+          console.log('dedupe.recall=', m.dedupe.recall);
+          console.log('dedupe.f1=', m.dedupe.f1);
+          console.log('clustering.f1=', m.clustering.f1);
+          console.log('normalization.exact_match_rate=', m.normalization.exact_match_rate);
+          "
+
+      - name: Append job summary
+        run: |
+          node -e "
+          const fs=require('fs');
+          const m=JSON.parse(fs.readFileSync('outputs/latest/metrics.json','utf8'));
+          const md = [
+            '## Evaluation Flywheel Metrics',
+            '',
+            '| Metric | Value |',
+            '|---|---:|',
+            '| Dedupe Precision | ' + m.dedupe.precision + ' |',
+            '| Dedupe Recall | ' + m.dedupe.recall + ' |',
+            '| Dedupe F1 | ' + m.dedupe.f1 + ' |',
+            '| Clustering F1 | ' + m.clustering.f1 + ' |',
+            '| Normalization Exact Match | ' + m.normalization.exact_match_rate + ' |',
+            '',
+            '- Generated at: ' + m.run_meta.generated_at_utc,
+          ].join('\\n');
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, md + '\\n');
+          "
+
+      - name: Upload latest artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-flywheel-latest
+          path: outputs/latest/
+          if-no-files-found: error

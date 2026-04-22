@@ -1,0 +1,83 @@
+{
+  "threshold": 0.85,
+  "cases": [
+    {
+      "id": "legal-incorporated",
+      "left_name": "Bluefin Digital Corporation",
+      "right_name": "Bluefin Digital",
+      "expected_duplicate": false
+    },
+    {
+      "id": "legal-inc",
+      "left_name": "Yellow Palm Ventures Incorporated",
+      "right_name": "Yellow Palm Ventures INC.",
+      "expected_duplicate": true
+    },
+    {
+      "id": "legal-sendirian-berhad",
+      "left_name": "Ionix. Solutions. Sendirian Berhad",
+      "right_name": "Ionix Solutions",
+      "expected_duplicate": true
+    },
+    {
+      "id": "concat-token",
+      "left_name": "CrestviewEngineering",
+      "right_name": "Crestview Engineering Corporation",
+      "expected_duplicate": false
+    },
+    {
+      "id": "abbr-intl",
+      "left_name": "Apex Trading Intl Pte Ltd",
+      "right_name": "International Apex Trading",
+      "expected_duplicate": true
+    },
+    {
+      "id": "abbr-solns",
+      "left_name": "Ionix Solns Sdn Bhd",
+      "right_name": "Solutions Ionix",
+      "expected_duplicate": true
+    },
+    {
+      "id": "abbr-engrg",
+      "left_name": "Crestview Engrg Corp",
+      "right_name": "Engineering Crestview",
+      "expected_duplicate": false
+    },
+    {
+      "id": "qualifier-guard-sg",
+      "left_name": "Crestview Engineering",
+      "right_name": "Crestview Engineering SG",
+      "expected_duplicate": false
+    },
+    {
+      "id": "qualifier-guard-branch",
+      "left_name": "Apex Trading International",
+      "right_name": "Apex Trading International Branch SG",
+      "expected_duplicate": false
+    },
+    {
+      "id": "modifier-guard-systems",
+      "left_name": "Falcon Marine",
+      "right_name": "Falcon Marine Systems",
+      "expected_duplicate": false
+    },
+    {
+      "id": "near-collision-motorworks",
+      "left_name": "Silverline Motors",
+      "right_name": "Silverline Motorworks",
+      "expected_duplicate": false
+    },
+    {
+      "id": "near-collision-trading",
+      "left_name": "Apex Trading International",
+      "right_name": "Apex Trading Asia",
+      "expected_duplicate": false
+    },
+    {
+      "id": "negative-different-brand",
+      "left_name": "Bluefin Digital Corporation",
+      "right_name": "Yellow Palm Ventures INC.",
+      "expected_duplicate": false
+    }
+  ]
+}

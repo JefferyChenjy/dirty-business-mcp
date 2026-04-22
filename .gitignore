@@ -1,0 +1,22 @@
+# node
+
+node_modules/
+dist/
+
+# outputs (generated artifacts)
+
+outputs/latest/*
+outputs/history/*
+
+# keep structure
+
+!outputs/latest/.gitkeep
+!outputs/history/.gitkeep
+
+# logs
+
+*.log
+
+# system
+
+.DS_Store
