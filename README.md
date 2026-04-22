@@ -1,6 +1,24 @@
+```md
 # dirty-business-mcp
 
 Clean and deduplicate messy business data using a rule-based entity resolution system with a reproducible evaluation flywheel.
+
+---
+
+## 🧪 Example
+
+Input:
+
+- "CrestviewEngineering"
+- "Engineering Crestview"
+- "Crestview Engineering SG"
+
+Output:
+
+- "CrestviewEngineering" ↔ "Engineering Crestview" → **match**
+- "Crestview Engineering SG" → **separate entity** (region qualifier)
+
+→ clustered entities with confidence scoring
 
 ---
 
@@ -30,30 +48,35 @@ This project implements a **rule-based entity resolution system** that:
 
 ---
 
-## 🧪 Example
+## 🔁 Evaluation flywheel
 
-Input:
+```
 
-- "CrestviewEngineering"
-- "Engineering Crestview"
-- "Crestview Engineering SG"
+raw data → normalize → dedupe → cluster → evaluate → error cases → improve → repeat
 
-Output:
+````
 
-- "CrestviewEngineering" ↔ "Engineering Crestview" → **match**
-- "Crestview Engineering SG" → **separate entity** (region qualifier)
-
-→ clustered entities with confidence scoring
+---
 
 ## ⚡ Quickstart
 
 ```bash
 npm install
 npm run flywheel
+````
+
+Outputs:
+
+```
+outputs/latest/
+  metrics.json
+  error_cases.json
+  summary.md
 ```
 
+---
 
-## Flywheel Commands
+## 🧪 Flywheel Commands
 
 ```bash
 npm run pipeline
@@ -66,137 +89,191 @@ npm run ci:flywheel
 npm run regression:pairs
 ```
 
-Command meanings:
-- `pipeline`: clean + normalize + cluster; writes base artifacts
-- `evaluate`: compare vs gold truth; writes `metrics.json` and `error_cases.json`
-- `eda`: generate `eda_summary.json`
-- `report`: generate `outputs/latest/summary.md`
-- `snapshot`: copy latest outputs to `outputs/history/<UTC timestamp>/`
-- `flywheel`: full local sequence (`pipeline -> evaluate -> eda -> report`)
-- `ci:flywheel`: CI-safe full sequence
-- `regression:pairs`: run fixed high-value dedupe pair checks
+**Command meanings:**
 
-## Input Data
+* `pipeline`: clean + normalize + cluster
+* `evaluate`: compare vs gold truth → metrics + error cases
+* `eda`: generate dataset diagnostics
+* `report`: human-readable summary
+* `snapshot`: save run history
+* `flywheel`: full loop (pipeline → evaluate → eda → report)
+* `ci:flywheel`: CI-safe run
+* `regression:pairs`: fixed high-value dedupe checks
 
-Required files:
-- `data/raw/dirty_business_data_200.csv`
-- `data/raw/dirty_business_gold_200.csv`
+---
 
-Scripts fail fast if required inputs are missing.
+## 📊 Hard Benchmark Baseline (Current)
 
-## Output Artifacts
+Measured on a **hard synthetic dataset** including:
 
-After `npm run flywheel`, outputs are written to:
+* abbreviation variants
+* token reordering
+* join/split forms
+* adversarial negatives
 
-`outputs/latest/`
-- `cleaned_records.csv`
-- `quality_scores.csv`
-- `clusters.json`
-- `metrics.json`
-- `error_cases.json`
-- `eda_summary.json`
-- `summary.md`
+| Metric              |  Value |
+| ------------------- | -----: |
+| Precision           | 0.8912 |
+| Recall              | 0.9595 |
+| F1                  | 0.9241 |
+| Clustering F1       | 0.9627 |
+| Normalization Match | 0.8074 |
 
-Snapshot command creates:
+Reference: `outputs/latest/metrics.json`
 
-`outputs/history/YYYYMMDD_HHmmssZ/`
-- full copy of all files from `outputs/latest`
+---
 
-## CI / GitHub Actions
+## 🧠 Key Techniques
+
+* token-set canonical matching (order-robust)
+* abbreviation & token expansion (`intl`, `solns`, `engrg`, etc.)
+* concatenated-word splitting (`NovaTechSolutions`)
+* qualifier guard (`sg`, `branch`, `asia`, `systems`)
+* core-token vs modifier-token separation
+* error-driven iteration via evaluation flywheel
+
+---
+
+## 📂 Project Structure
+
+```
+data/raw/          # dirty + gold datasets
+scripts/           # pipeline / evaluate / eda / report
+src/               # normalization + dedupe logic
+outputs/           # generated artifacts (ignored in git)
+reports/           # benchmark notes and analysis
+```
+
+---
+
+## 📥 Input Data
+
+Required:
+
+```
+data/raw/dirty_business_data_200.csv
+data/raw/dirty_business_gold_200.csv
+```
+
+Scripts fail fast if missing.
+
+---
+
+## 📤 Output Artifacts
+
+After `npm run flywheel`:
+
+```
+outputs/latest/
+  cleaned_records.csv
+  quality_scores.csv
+  clusters.json
+  metrics.json
+  error_cases.json
+  eda_summary.json
+  summary.md
+```
+
+Snapshots:
+
+```
+outputs/history/<timestamp>/
+```
+
+---
+
+## 🔄 CI / GitHub Actions
 
 Workflow: `.github/workflows/eval-flywheel.yml`
 
-Triggers:
-- push to `main`
-- pull request
-- manual dispatch
-
-Workflow steps:
-1. `npm ci`
-2. `npm run ci:flywheel`
-3. validate `outputs/latest/metrics.json`
-4. print key metrics in logs
-5. append compact metrics table to job summary
-6. upload `outputs/latest` as artifact
+* runs on push / PR
+* executes full flywheel
+* validates metrics schema
+* uploads artifacts
+* enforces quality gate
 
 Quality gate:
-- CI fails if dedupe precision `< 0.70`
-- configurable via env var `DEDUPE_PRECISION_GATE`
 
-## Threshold Tuning
+```
+dedupe precision >= 0.70
+```
 
-You can tune thresholds via env vars:
+---
+
+## ⚙️ Threshold Tuning
 
 ```bash
 CLUSTER_THRESHOLD=0.88 DEDUPE_MIN_SCORE=0.88 npm run flywheel
 ```
 
-Then inspect:
-- `outputs/latest/metrics.json`
-- `outputs/latest/error_cases.json`
-- `outputs/latest/summary.md`
+Inspect:
 
-## Hard Benchmark Baseline (Current)
+* `metrics.json`
+* `error_cases.json`
+* `summary.md`
 
-Reference run (`outputs/latest/metrics.json`, generated at `2026-04-22T01:02:16.694Z`):
+---
 
-- Dedupe precision: `0.8912`
-- Dedupe recall: `0.9595`
-- Dedupe F1: `0.9241`
-- Clustering F1 (B-cubed): `0.9627`
-- Normalization exact match: `0.8074`
+## 🧩 Current Rule Capabilities
 
-This is the current hard-benchmark baseline for future changes.
+* suffix normalization (`inc`, `corp`, `ltd`, etc.)
+* abbreviation expansion
+* token-set comparison
+* qualifier guard
+* modifier-token guard
 
-## Current Rule Capabilities
+---
 
-Current matcher/normalizer behavior includes:
+## ⚠️ Known Residual Error Patterns
 
-- legal suffix cleanup (`inc`, `corp`, `ltd`, `sendirian berhad`, etc.)
-- abbreviation expansion (`intl`, `solns`, `engrg`, `pkg`, `pkgrs`, `analytx`, etc.)
-- concatenated-word splitting (`CrestviewEngineering` style)
-- token-set canonical comparison (order-robust name signal)
-- qualifier-only expansion guard (`sg`, `branch`, `asia`, `systems`)
-- modifier-driven similarity guard for generic business-word overlap
+* branch/region ambiguity (SG / Asia)
+* join/split + synonym edge cases
+* brand overlap with different modifiers
+* borderline cases intentionally left conservative
 
-## Known Residual Error Patterns
+See:
 
-Main remaining misses/collisions from hard benchmark:
+```
+reports/hard_benchmark_notes.md
+```
 
-- branch/region variants that may be true duplicate but are currently guarded as ambiguous
-- join/split + synonym edge cases like:
-  - `Nova Technology Solutions` vs `NovaTechSolutions`
-  - `Silverline Motor Works` vs `Motorworks Silverline`
-  - `Bluefin Digi Labs Corp` vs `Digital Labs Bluefin`
-- family-overlap patterns where brand token is shared and business modifiers differ
+---
 
-## Next Directions (Planned, Not Implemented Yet)
+## 🚀 Next Directions (Planned)
 
-To avoid scope creep, these are explicitly deferred:
+* LLM hybrid for grey-zone adjudication
+* larger real-world datasets
+* API / MCP integration
+* threshold calibration
 
-- threshold tuning and calibration
-- richer core-token weighting (beyond current minimal guard)
-- hybrid scorer (rule + learned/LLM-assisted rerank)
-- broader hard-benchmark expansion and class-balanced slices
+---
 
-Rationale: keep current baseline stable first, then iterate one controlled change at a time.
+## 🧠 Why this project
 
-Detailed iteration-by-iteration decision log is tracked in:
-- `reports/hard_benchmark_notes.md`
+Most demos stop at “it works”.
 
-## MCP / CLI (existing)
+This project focuses on:
 
-Build and start MCP server:
+* hard-case evaluation
+* precision vs recall tradeoffs
+* repeatable iteration loop
+* explainable rule-based baseline
+
+---
+
+## 🧪 MCP / CLI
 
 ```bash
 npm run build
 npm run start
 ```
 
-CLI examples:
+CLI:
 
 ```bash
 npm run cli -- normalize examples/sample.csv
 npm run cli -- dedupe examples/sample.csv
 npm run cli -- clean examples/sample.csv --out /tmp/cleaned.json
+```
+
 ```
